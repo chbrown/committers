@@ -1,0 +1,55 @@
+{
+  "name": "committers",
+  "version": "0.0.1",
+  "description": "GitHub committer statistics",
+  "author": "Christopher Brown <io@henrian.com> (http://henrian.com)",
+  "license": "MIT",
+  "keywords": [
+    "github",
+    "user",
+    "committers",
+    "statistics"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chbrown/committers.git"
+  },
+  "bin": {
+    "committers-cli": "bin/committers-cli.js",
+    "committers-ui": "bin/committers-ui.js"
+  },
+  "dependencies": {
+    "amulet": "*",
+    "async": "*",
+    "cookies": "git://github.com/chbrown/cookies.git",
+    "eyes": "*",
+    "http-enhanced": "*",
+    "mkdirp": "*",
+    "mongoose": "*",
+    "nodegit": "git://github.com/nodegit/nodegit",
+    "optimist": "*",
+    "regex-router": "*",
+    "request": "*",
+    "streaming": "*",
+    "sv": "*",
+    "underscore": "*",
+    "winston": "*"
+  },
+  "devDependencies": {
+    "long-stack-traces": "*",
+    "tap": "*"
+  },
+  "scripts": {
+    "test": "tap test"
+  },
+  "staticPattern": "static/lib/{file}",
+  "staticDependencies": {
+    "backbone": "*",
+    "jquery": "*",
+    "jquery-tablesorter": "*",
+    "json2": "*",
+    "lo-dash": "*",
+    "misc-js": "git://github.com/chbrown/misc-js.git",
+    "underscore": "*"
+  }
+}
