@@ -1,6 +1,6 @@
 {
   "name": "committers",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "GitHub committer statistics",
   "author": "Christopher Brown <io@henrian.com> (http://henrian.com)",
   "license": "MIT",
