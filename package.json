@@ -24,6 +24,7 @@
     "cookies": "git://github.com/chbrown/cookies.git",
     "eyes": "*",
     "http-enhanced": "*",
+    "loge": "*",
     "mkdirp": "*",
     "mongoose": "*",
     "nodegit": "git://github.com/nodegit/nodegit",
@@ -33,7 +34,6 @@
     "streaming": "*",
     "sv": "*",
     "underscore": "*",
-    "winston": "*"
   },
   "devDependencies": {
     "long-stack-traces": "*",

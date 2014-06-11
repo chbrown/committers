@@ -6,7 +6,7 @@ var http = require('http-enhanced');
 var Router = require('regex-router');
 var Cookies = require('cookies');
 
-var logger = require('../lib/logger');
+var logger = require('loge');
 
 Cookies.prototype.defaults = function() {
   var expires = new Date(Date.now() + 31*86400 *1000); // 1 month

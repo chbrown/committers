@@ -3,7 +3,7 @@ var async = require('async');
 var path = require('path');
 var nodegit = require('nodegit');
 
-var logger = require('../lib/logger');
+var logger = require('loge');
 
 
 

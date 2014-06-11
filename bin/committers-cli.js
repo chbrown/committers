@@ -8,7 +8,7 @@ var child_process = require('child_process');
 var inspect = require('eyes').inspector({maxLength: 512}); // or 65536
 var git = require('../apis/nodegit');
 var models = require('../lib/models');
-var logger = require('../lib/logger');
+var logger = require('loge');
 
 var commands = {
   addusers: function(argv) {

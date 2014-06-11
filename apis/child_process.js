@@ -7,7 +7,7 @@ var mkdirp = require('mkdirp');
 var path = require('path');
 var streaming = require('streaming');
 
-var logger = require('../lib/logger');
+var logger = require('loge');
 
 
 function rm_rf(filepath, callback) {

@@ -3,7 +3,7 @@ var async = require('async');
 var gift = require('gift');
 var inspect = require('eyes').inspector();
 
-var logger = require('../lib/logger');
+var logger = require('loge');
 
 function gift_ls(repository_path) {
   var repository = gift(repository_path);
